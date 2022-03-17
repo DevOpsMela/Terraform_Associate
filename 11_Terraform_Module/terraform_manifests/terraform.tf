@@ -1,5 +1,4 @@
 ## Trail Run
-
 terraform {
   required_version = ">= 1.0.0"
   required_providers {
@@ -20,7 +19,7 @@ module "rg" {
   version = "5.0.1"
   # insert the 4 required variables here
   client_name = "DevOps Mela"
-  environment = "Production"
+  environment = "Development"
   location = "eastus"
   stack = "DevOps Project"
 }
